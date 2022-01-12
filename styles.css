@@ -1,0 +1,64 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+label {
+    font-size: 20px;
+    padding: 5px 15px 5px 2px;
+}
+
+input[type='radio'] {
+    transform: scale(1.2);
+}
+
+input {
+    height: 30px;
+    font-size: large;
+}
+
+#nummer {
+    width: 15%;
+}
+
+#answer {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    height: 60px;
+    width: 25%;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="radio"] {
+    margin-top: -7px;
+    vertical-align: middle;
+}
+
+
+@media (max-width: 800px) {
+    #nummer {
+        width: 35%;
+    }
+
+    #answer {
+
+        width: 50%;
+    }
+
+}
